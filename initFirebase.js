@@ -119,7 +119,7 @@ const addNewEvent = () => {
   db.collection("Accepted")
     .add(userData)
     .then(() => {
-      alert("See you there :)");
+      alert("text back :)");
     })
     .catch((err) => console.log(err));
 };
