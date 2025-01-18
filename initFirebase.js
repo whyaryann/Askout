@@ -118,7 +118,7 @@ const addNewEvent = () => {
   db.collection("Accepted")
     .add(userData)
     .then(() => {
-      alert("text back :)");
+      alert("you seriously tapped on yes, ofc why not :)");
     })
     .catch((err) => console.log(err));
 };
